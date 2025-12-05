@@ -15,6 +15,7 @@ body {
     margin-top: 5px;
     margin-bottom: 5px;
     padding-right: 5px;
+    cursor: pointer;
 }
 div {
     border: 1px black solid;
@@ -24,7 +25,8 @@ div {
     height:fit-content;
     display: flex;
     align-items: center;
-    gap: 10px;  
+    gap: 10px;
+    cursor: pointer;
 }
 div > img {
     width: 5%;
