@@ -7,15 +7,16 @@
     <title>Custom Dropdown</title>
 </head>
 <body>
-    <div>
-        <h4>Select Item</h4><img src="images/arrowdown.png">
+    <div onclick="toggleDropdown()">
+        <h4 id="selected">Select Item</h4><img src="images/arrowdown.png">
     </div>
     <ul id="dropdown">
-        <li class="item">First Item</li>
-        <li class="item">Second Item</li>
-        <li class="item">Third Item</li>
-        <li class="item">Fourth Item</li>
-        <li class="item">Fifth Item</li>
+        <li onclick='selectItem("first")' class="item">First Item</li>
+        <li onclick='selectItem("second")' class="item">Second Item</li>
+        <li onclick='selectItem("third")' class="item">Third Item</li>
+        <li onclick='selectItem("fourth")' class="item">Fourth Item</li>
+        <li onclick='selectItem("fifth")' class="item">Fifth Item</li>
     </ul>
+    <script src="main.js"></script>
 </body>
 </html>
