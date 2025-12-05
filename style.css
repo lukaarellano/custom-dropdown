@@ -4,10 +4,12 @@ body {
 
 #dropdown {
     border: 2px black solid;
-    width: fit-content;
+    width: 100%;
     height: fit-content;
     padding-right: 45px;
     list-style-type: none;
+    text-align: center;
+    font-size: 15px;
 }
 .item {
     border: 1px black solid;
@@ -17,16 +19,17 @@ body {
     padding-right: 5px;
     cursor: pointer;
 }
-div {
+#selectedElement {
     border: 1px black solid;
-    border-radius: 5px;
+    border-radius: 15px;
     padding: 10px;
-    width: fit-content;
+    width: 100%;
     height:fit-content;
     display: flex;
     align-items: center;
     gap: 10px;
     cursor: pointer;
+    justify-content: center;
 }
 div > img {
     width: 5%;
@@ -34,4 +37,9 @@ div > img {
 
 div > h4 {
     margin: 0px;
+    font-size: 20px;
+}
+
+.container {
+    width:8%;
 }

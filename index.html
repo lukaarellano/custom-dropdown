@@ -7,8 +7,9 @@
     <title>Custom Dropdown</title>
 </head>
 <body>
-    <div onclick="toggleDropdown()">
-        <h4 id="selected">Select Item</h4><img src="images/arrowdown.png">
+    <div class="container">
+    <div id='selectedElement' onclick="toggleDropdown()">
+        <h4 id="selected">Select Item</h4><img src="images/arrowdown.png"><br>
     </div>
     <ul id="dropdown">
         <li onclick='selectItem("first")' class="item">First Item</li>
@@ -17,6 +18,7 @@
         <li onclick='selectItem("fourth")' class="item">Fourth Item</li>
         <li onclick='selectItem("fifth")' class="item">Fifth Item</li>
     </ul>
+    </div>
     <script src="main.js"></script>
 </body>
 </html>
